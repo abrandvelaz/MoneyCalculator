@@ -5,6 +5,7 @@ import model.CurrencySet;
 
 public class CurrencySetFetcher implements CurrencySetLoader {
 
+    
     @Override
     public CurrencySet load() {
         CurrencySet set = new CurrencySet();
